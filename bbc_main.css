@@ -1,0 +1,375 @@
+<style type="text/css">
+        body {
+            margin: 0;
+        }
+        .clear {
+	        clear: both;
+        }
+        
+        .fixedwidth {
+            width: 976px;
+            height: 100%;
+            margin: auto;
+        }
+        
+        #topbar {
+            height: 39.5167px;
+            font-family: arial,Helvetica,sans-serif;
+            font-weight: bold;
+            font-size: 13px;
+            color: #333333;
+        }
+        #bbclogo{
+            
+            float: left;
+            width: 92px;
+            height: 39.5167px;
+            border-right: 1px solid #E5E5E5;
+            background-color: white;
+        }
+        #bbclogo img{
+            padding-top: 8px;
+        }
+        #signin {
+	        float: left;
+            width: 166px;
+            height: 100%;
+            
+            border-right: 1px solid #E5E5E5;
+            
+        }
+        #signin p{
+            margin: 11px 2px 0 15px;
+        }
+        .signinfont {
+	        position: relative;
+            top: -3px;
+            right: 1px;
+        }
+        #topmenu{
+            float: left;
+            
+        }
+        #topmenu ul{
+            
+            margin: 0;
+            padding: 0;
+        }
+        #topmenu li{
+            float: left;
+            list-style: none;
+            padding: 12px 12px 12px 12px; 
+            border-right: 1px solid #E5E5E5;
+        }
+        #more{
+            float: left;
+        }
+        #more p{
+            margin: 0;
+            width: 121px;
+            padding: 12px 0 12px 12px;
+            border-right: 1px solid #E5E5E5;
+        }
+        .popdownmenu {
+	        float: right;
+            padding-right: 12px;
+        }
+        #search {
+	        float: left;
+            margin-top: 7px;
+            margin-left: 7.5px;
+        }
+        #search input{
+	        width: 194px;
+            height: 24px;
+            background-color: #E4E4E4;
+            border: none;
+            font-family: arial,Helvetica,sans-serif;
+            font-weight: bold;
+            font-size: 13px;
+            padding-left: 6px;
+            background-image: url(images/magnify.png);
+            background-repeat: no-repeat;
+            background-size: 8.5%;
+            background-position: right 4% center;
+            
+        }
+        #newsbar {
+            height: 56px;
+            background-color: #BB1919;
+            border-top: 1px solid #E5E5E5;
+        }
+        #newsbar img {
+	        padding-top: 12px;
+            
+        }
+        
+        #menuf {
+            color: white;
+            font-family: arial,Helvetica,sans-serif;
+            font-size: 14px;
+            height: 36px;
+            background-color: #A91717;
+            
+        }
+        
+        #home p{
+            float: left;
+            margin-top: 11px;
+            padding-right: 12px;
+            border-right: 1px solid #bb4545;
+            
+        }
+        
+        #menuf ul{
+	        float: left;
+            margin: 0;
+            padding: 0;
+            padding-top: 11px;
+            
+        }
+        #menuf li{
+            float: left;
+	        list-style: none;
+            padding-left: 12px;
+            padding-right: 12px;
+            border-right: 1px solid #bb4545;
+        }
+        #Asia {
+	        
+            
+        }
+        #redmore{
+            float: left;
+        }
+        #redmore p{
+            float: left;
+            margin: 0;
+            padding: 11px 5px 0 12px;
+        }
+        #redmore img{
+            position: relative;
+            top: 2px;
+            left: 6px;
+        }
+        #menus {
+            
+            color: #333333;
+            font-family: arial,Helvetica,sans-serif;
+            font-size: 20px;
+            height: 35px;
+            margin: 0;
+            float: left;
+            
+        }
+        #asia{
+            position: relative;
+            left: -50.88px;
+            float: left;
+            
+        }
+        #asia p{
+            margin-top: 4px;
+            
+            padding-right: 12px;
+            border-bottom: 3px solid #BB1919;
+            
+        }
+        #china{
+            float: left;
+            position: relative;
+            left: -50.88px;
+            height: 31px;
+        }
+        #china p{
+            font-size: 14px;
+            margin-top: 9px;
+            padding-left: 12px;
+            padding-right: 12px;
+            border-left: 1px solid #E5E5E5;
+            border-right: 1px solid #E5E5E5;
+        }
+        #india{
+            float: left;
+            position: relative;
+            left: -50.88px;
+            
+        }
+        #india p{
+            font-size: 14px;
+            margin-top: 9px;
+            padding-left: 12px;
+            padding-right: 12px;
+            
+        }
+        #bbb{
+            float: left;
+            position: relative;
+            left: -50.88px;
+            padding-left: 3px;
+        }
+        #bbb p{
+            font-size: 14px;
+            margin-top: -3px;
+            padding-left: 12px;
+            padding-right: 12px;
+            border-top: 10px solid white;
+            color: white;
+        }
+        #blank {
+	        width: 976px;
+            height: 127px;
+            float: left;
+            margin: 0 0 0 24.5%;
+            
+        }
+        #primary {
+	        float: left;
+            margin: 0;
+            margin: 0 0 0 24.5%;
+            width: 680px;
+            height: 660px;
+            
+            font-family: arial,Helvetica,sans-serif;
+            
+            
+            
+        }
+        #primary h1{
+	        float: left;
+            color: black;
+        }
+        .pic1{
+            float: right;
+            padding-right: 15px;
+        }
+        .session1 {
+	        margin: 0;
+            width: 232px;
+            float: left;
+        }
+        .width1 {
+	        float: left;
+            width: 232px;
+            font-size: 0.9em;
+        }
+        .time {
+            float: left;
+            width: 232px;
+            font-size: 0.8em;
+            
+        }
+        .left {
+            padding-left: 3px;
+            padding-right: 8px;
+            border-right: 1px solid #E5E5E5;
+        }
+        .right{
+            padding-left: 3px;
+            color: red;
+        }
+        .line1 {
+            height: 1px;
+            width: 40px;
+            border-bottom: 1px solid red;
+	        margin: 0;
+            float: left;
+        }
+        .line2{
+            height: 1px;
+            margin-top: 8px;
+            width: 665px;
+            float: left;
+            border-bottom: 1px solid #E5E5E5;
+        }
+        .session4 {
+            float: left;
+            width: 216px;
+            height: 388px;
+            position: relative;
+            top: 16px;
+            padding-right: 16px;
+            border-right: 1px solid #E5E5E5;
+            
+        }
+        
+        .session4 h3{
+	        color: black;
+            float: left;
+            margin-top: 5px;
+        }
+        .session4 p{
+	        float: left;
+            margin-top: -10px;
+            padding: 0;
+            font-size: 0.9em;
+        }
+        .distance{
+            float: left;
+            position: relative;
+            top: 5px;
+        }
+        .session5 {
+            float: left;
+            width: 216px;
+            height: 388px;
+            position: relative;
+            top: 16px;
+            padding-left: 16px;
+            padding-right: 16px;
+            border-right: 1px solid #E5E5E5;
+            
+        }
+        
+        .session5 h3{
+	        color: black;
+            float: left;
+            margin-top: 5px;
+        }
+        .session5 p{
+	        float: left;
+            margin-top: -10px;
+            padding: 0;
+            font-size: 0.9em;
+            color: #5A5A5A;
+        }
+        
+        #session6 {
+            float: right;
+            width: 165px;
+            height: 388px;
+            
+            
+            padding-left: 16px;
+            padding-right: 16px;  
+        }
+        .oldnews p{
+	        margin: 0;
+            padding: 0;
+            font-size: 0.85em;
+        
+        }
+        .oldnewsline {
+            margin-top: 80px;
+	        height: 1px;
+            width: 165px;
+            border-bottom: 1px solid #E5E5E5;
+        }
+        .reducethegap{
+            margin-top: -60px;
+        }
+        .endline{
+            margin-top: 50px;
+            height: 1px;
+            width: 665px;
+            float: left;
+            border-bottom: 1px solid #E5E5E5;
+        }
+        .endblank{
+            margin: 0 0 0 24.5%;
+            padding: auto;
+            width: 976px;
+            height: 450px;
+        }
+        
+    </style>
